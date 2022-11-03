@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: "poppins";
+}
+.navbar-brand{
+    font-family:"ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#title{
+    background-color:#ff4c68;
+}
+.container-fluid{
+    padding:3% 15% 200px;
+
+}
+h1{
+    font-family: "poppins";
+    font-size:3rem;
+    line-height: 1.5;
+    color:#fff;
+}
+
+.download-button{
+    margin:20px 20px 0 0;
+}
+.phone-image{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+}
+.fa-solid{
+    color:#ef8172;
+    padding:15px;
+}
+.para{
+    color:#8f8f8f;
+    font-family: "open-sans";
+    font-size:1.2rem;
+}
+.heading3{
+    font-size:1.5rem;
+}
+
+/* feature */
+
+#features{
+    padding:7% 15%;
+    background-color:#fff;
+    position: relative;
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+}
+.fa-solid:hover{
+    color:#ff4c68;
+
+}
+#testimonials{
+    background-color:#ef8172;
+    text-align: center;
+    color:#000;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+.pebbles{
+    color:#fff;
+    font-style:italic;
+    font-weight:normal;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+.card-heading{
+    text-align: center;
+    padding:5%;
+}
+.cards-para{
+    color:#1f1f1f;
+    font-family: sans-serif;
+}
+#pricing{
+    padding: 40px;
+      text-align: center;
+}
+.sub-para{
+    color:#1f1f1f;
+    font-family: sans-serif;
+}
+.btn{
+    font-family: sans-serif;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:100px;
+}
+.cta-heading{
+    padding:50px;
+    text-align:center;
+    color:#fff;
+    font-size: 56px;
+    font-family: "poppins";
+}
+
+#footer{
+    text-align: center;
+    padding:7% 15%;
+}
+.social-icon{
+    margin:20px 20px;
+}
+.copy{
+    color:#1f1f1f;
+    font-family: open-sans;
+}
+.name{
+    font-family: "open-sans";
+    color:#0056b3;
+    text-decoration: none;
+}
+.social-icon:hover{
+    color:#ef8172;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .phone-image{
+        transform:rotate(0);
+        position: static;
+        margin-top: 30px;
+    }
+}
